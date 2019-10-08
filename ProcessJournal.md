@@ -36,5 +36,5 @@ So, the requirements for this project atm are a little sparse. All that's due on
 
 > **Asset Research:** Look through free resources to find assets you are considering for your project.
 
-> [Kenney's Furniture Kit](https://www.kenney.nl/assets/furniture-kit)
+> * [Kenney's Furniture Kit](https://www.kenney.nl/assets/furniture-kit)
 
