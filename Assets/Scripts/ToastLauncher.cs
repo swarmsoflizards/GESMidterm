@@ -15,10 +15,10 @@ public class ToastLauncher : MonoBehaviour
         if (canLaunch && Input.GetKeyDown(KeyCode.Space)) //Launch on spacebar
         {
             Instantiate(toastPrefab, transform.position, toastPrefab.transform.rotation); //Launch from toaster's position
-            Rigidbody rb = toastPrefab.GetComponent<Rigidbody>(); //Get toast Rigidbody
+            //Rigidbody rb = toastPrefab.GetComponent<Rigidbody>(); //Get toast Rigidbody
 
-            Vector3 direction = Quaternion.Euler(15, 0, 0) * transform.forward; //Define launch force
-            rb.AddForce(direction * launchForce, ForceMode.Impulse); //Apply launch force
+            ////Vector3 direction = Quaternion.Euler(15, 0, 0) * transform.forward; //Define launch force
+            //rb.AddForce(0, 0, launchForce, ForceMode.Impulse); //Apply launch force
             canLaunch = false;
 
             Invoke("EnableLaunch", 1 / launchPerSecond); //Apply launch per second

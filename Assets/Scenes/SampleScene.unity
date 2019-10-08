@@ -416,6 +416,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toastPrefab: {fileID: 8658175459340020296, guid: 8e9501a28b7f8c4499992e26699746c5,
     type: 3}
+  launchForce: 5
+  launchPerSecond: 2
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
