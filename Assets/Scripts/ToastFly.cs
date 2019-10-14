@@ -10,6 +10,5 @@ public class ToastFly : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * flySpeed); //Apply toast flying speed
-        
     }
 }
