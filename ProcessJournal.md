@@ -38,3 +38,14 @@ So, the requirements for this project atm are a little sparse. All that's due on
 ?
 > * [Kenney's Furniture Kit](https://www.kenney.nl/assets/furniture-kit)
 
+In addition to filling out and turning in this document, I also did an amount of work in-engine. I downloaded and installed the furniture asset pack, I created a toast prefab and wrote a couple of scripts to instantiate toast when you hit the spacebar and to move the camera with mouse movement. That was the basic prototype that I turned in. The only functionality was:
+
+1. Mouse-tracking camera movement
+2. Instantiate toast prefab on spacebar down
+3. Rigidbody on toast lets physics interact with it
+4. Collider on ground keeps toast from falling indefinitely
+
+## 10-14-2019 - Making the toast fly in the direction the camera is facing
+- - - -
+
+
