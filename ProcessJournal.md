@@ -49,8 +49,12 @@ In addition to filling out and turning in this document, I also did an amount of
 3. Rigidbody on toast lets physics interact with it
 4. Collider on ground keeps toast from falling indefinitely
 
-## 10-14-2019 - Making the toast fly in the direction the camera is facing
+## 10-14-2019 - Making the toast fly in the direction the camera is facing & adding the environment
 - - - -
 When I arrived in class Monday morning and opened my Unity project, the first thing that struck me was that while the toast launched perfectly, it only did so on the z-axis and was indifferent to the direction the camera was facing. 
 
 ![alt text](https://66.media.tumblr.com/38680b5590e1b9daea2a4a3436d66106/tumblr_pzfgztz0Hs1s5zyrgo1_540.jpg "Toast Pile Screenshot")
+
+Referencing the basketball-throwing script from the earlier Space Jam class project, I wrote a handful of lines and then spent time debugging, only for nothing I wrote to be working. It took me and my professor half an hour to realize I was referencing the toast prefab instead of the instantiated game object. After I fixed that, it worked great. Funny how that works.
+
+After I got that squared away, I started adding the environment assets. I started with the floor, which I made out of four 4x-sized tiles arranged in a square. I added box colliders and the "floor" physic material. After that, I added the walls. Since right now the room is just a cube with solid walls, I'm going to replace some of the wall tiles with window and door tiles. I'm planning on adding basic furniture like counters and tables next to fill out the environment and maybe add additional fun interactions with the flying/falling toast.
