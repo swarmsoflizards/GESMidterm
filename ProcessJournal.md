@@ -47,5 +47,6 @@ In addition to filling out and turning in this document, I also did an amount of
 
 ## 10-14-2019 - Making the toast fly in the direction the camera is facing
 - - - -
+When I arrived in class Monday morning and opened my Unity project, the first thing that struck me was that while the toast launched perfectly, it only did so on the z-axis and was indifferent to the direction the camera was facing. 
 
-
+![alt text](file:///C:/Users/emmas/Pictures/Columbia/Game%20Engine%20Scripting/Midterm/ToastPile.JPG "Toast Pile Screenshot")
