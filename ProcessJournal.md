@@ -32,7 +32,9 @@ So, the requirements for this project atm are a little sparse. All that's due on
 >
 > **References:** Link to at least three other pieces of media that have something similar to whar you are trying to accomplish and explain which element you are interested in
 >
-> * [I am Bread](http://www.iambreadgame.com/): Absurdist game centering around toast, set in a mundane environment. Differences are that the player is the bread instead of the toaster, and the gameplay is movement instead of aiming and firing.
+> * [I am Bread](http://www.iambreadgame.com/): Kitchen shenanigans, bread theming
+> * [Catlateral Damage](http://www.catlateraldamage.com/): Silliness, tone, art style
+> * [Little Inferno](https://tomorrowcorporation.com/littleinferno): Deeply simplistic single mechanic hiding real depth 
 >
 > **Target Audience and Platform:** Who is the target audience for the game? How do they play it?
 >
@@ -41,6 +43,8 @@ So, the requirements for this project atm are a little sparse. All that's due on
 > **Asset Research:** Look through free resources to find assets you are considering for your project.
 ?
 > * [Kenney's Furniture Kit](https://www.kenney.nl/assets/furniture-kit)
+> * [Youtube Audio Library](https://www.youtube.com/audiolibrary/music?nv=1)
+> * [Zapsplat](https://www.zapsplat.com/music/modern-toaster-pop-up-3/)
 
 In addition to filling out and turning in this document, I also did an amount of work in-engine. I downloaded and installed the furniture asset pack, I created a toast prefab and wrote a couple of scripts to instantiate toast when you hit the spacebar and to move the camera with mouse movement. That was the basic prototype that I turned in. The only functionality was:
 
