@@ -15,6 +15,10 @@ So, the requirements for this project atm are a little sparse. All that's due on
 >
 > "This game has the player aim a toaster on a rotating axis and launch toast onto targets."
 >
+> **Storyboard:** What's the arc of the gameplay? Your storyboard should have three-six frames.
+>
+>> ![alt text](https://66.media.tumblr.com/7cc6d9a7560f1d37204d5d4590da4856/tumblr_pzfgztz0Hs1s5zyrgo2_540.jpg "Storyboard")
+>
 > **Feature List:** List all of the features that you want to include in your game
 >
 > * Spinning toaster player
@@ -49,4 +53,4 @@ In addition to filling out and turning in this document, I also did an amount of
 - - - -
 When I arrived in class Monday morning and opened my Unity project, the first thing that struck me was that while the toast launched perfectly, it only did so on the z-axis and was indifferent to the direction the camera was facing. 
 
-![alt text](file:///C:/Users/emmas/Pictures/Columbia/Game%20Engine%20Scripting/Midterm/ToastPile.JPG "Toast Pile Screenshot")
+![alt text](https://66.media.tumblr.com/38680b5590e1b9daea2a4a3436d66106/tumblr_pzfgztz0Hs1s5zyrgo1_540.jpg "Toast Pile Screenshot")
