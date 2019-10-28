@@ -13,13 +13,14 @@ public class Target : MonoBehaviour
     [SerializeField] float startDelay = 2; //Set delay
     [SerializeField] float spawnInternal = 1.5f; //
 
-    private float targetsInScene; //Set var number of targets in scene
+    private float targetsInScene; //Set var max number of targets in scene
 
     void Update()
     {
-        if (targetsInScene >= maxTargetNumber) //Check against max number of targets
+        if (targetsInScene <= maxTargetNumber) //Check against max number of targets
         {
             SpawnTarget(); //Spawn target
+            targetsInScene = +1; //Add to targetsInScene
         }
         else
         {
@@ -31,6 +32,5 @@ public class Target : MonoBehaviour
     {
         Vector3 spawnPos = new Vector3(Random.Range(spawnRangeMinX, spawnRangeMaxX), 0, Random.Range(spawnRangeMinZ, spawnRangeMaxZ)); //Set spawn position
         Instantiate(targetPrefab, spawnPos, Quaternion.identity); //Instantiate plate
-        targetsInScene++; //Add to targetsInScene
     }
 }
