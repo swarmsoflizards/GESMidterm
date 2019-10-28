@@ -15,6 +15,10 @@ So, the requirements for this project atm are a little sparse. All that's due on
 >
 > "This game has the player aim a toaster on a rotating axis and launch toast onto targets."
 >
+> **Storyboard:** What's the arc of the gameplay? Your storyboard should have three-six frames.
+>
+>> ![alt text](https://66.media.tumblr.com/7cc6d9a7560f1d37204d5d4590da4856/tumblr_pzfgztz0Hs1s5zyrgo2_540.jpg "Storyboard")
+>
 > **Feature List:** List all of the features that you want to include in your game
 >
 > * Spinning toaster player
@@ -28,7 +32,9 @@ So, the requirements for this project atm are a little sparse. All that's due on
 >
 > **References:** Link to at least three other pieces of media that have something similar to whar you are trying to accomplish and explain which element you are interested in
 >
-> * [I am Bread](http://www.iambreadgame.com/): Absurdist game centering around toast, set in a mundane environment. Differences are that the player is the bread instead of the toaster, and the gameplay is movement instead of aiming and firing.
+> * [I am Bread](http://www.iambreadgame.com/): Kitchen shenanigans, bread theming
+> * [Catlateral Damage](http://www.catlateraldamage.com/): Silliness, tone, art style
+> * [Little Inferno](https://tomorrowcorporation.com/littleinferno): Deeply simplistic single mechanic hiding real depth 
 >
 > **Target Audience and Platform:** Who is the target audience for the game? How do they play it?
 >
@@ -37,4 +43,22 @@ So, the requirements for this project atm are a little sparse. All that's due on
 > **Asset Research:** Look through free resources to find assets you are considering for your project.
 ?
 > * [Kenney's Furniture Kit](https://www.kenney.nl/assets/furniture-kit)
+> * [Youtube Audio Library](https://www.youtube.com/audiolibrary/music?nv=1)
+> * [Zapsplat](https://www.zapsplat.com/music/modern-toaster-pop-up-3/)
 
+In addition to filling out and turning in this document, I also did an amount of work in-engine. I downloaded and installed the furniture asset pack, I created a toast prefab and wrote a couple of scripts to instantiate toast when you hit the spacebar and to move the camera with mouse movement. That was the basic prototype that I turned in. The only functionality was:
+
+1. Mouse-tracking camera movement
+2. Instantiate toast prefab on spacebar down
+3. Rigidbody on toast lets physics interact with it
+4. Collider on ground keeps toast from falling indefinitely
+
+## 10-14-2019 - Making the toast fly in the direction the camera is facing & adding the environment
+- - - -
+When I arrived in class Monday morning and opened my Unity project, the first thing that struck me was that while the toast launched perfectly, it only did so on the z-axis and was indifferent to the direction the camera was facing. 
+
+![alt text](https://66.media.tumblr.com/38680b5590e1b9daea2a4a3436d66106/tumblr_pzfgztz0Hs1s5zyrgo1_540.jpg "Toast Pile Screenshot")
+
+Referencing the basketball-throwing script from the earlier Space Jam class project, I wrote a handful of lines and then spent time debugging, only for nothing I wrote to be working. It took me and my professor half an hour to realize I was referencing the toast prefab instead of the instantiated game object. After I fixed that, it worked great. Funny how that works.
+
+After I got that squared away, I started adding the environment assets. I started with the floor, which I made out of four 4x-sized tiles arranged in a square. I added box colliders and the "floor" physic material. After that, I added the walls. Since right now the room is just a cube with solid walls, I'm going to replace some of the wall tiles with window and door tiles. I'm planning on adding basic furniture like counters and tables next to fill out the environment and maybe add additional fun interactions with the flying/falling toast.
