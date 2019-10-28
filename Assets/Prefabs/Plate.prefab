@@ -120,3 +120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39ef784f89a075459d5a803cc69bf20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetPrefab: {fileID: 1378593221907068742}
+  spawnRangeX: 0
+  spawnRangeZ: 0
+  startDelay: 2
+  spawnInternal: 1.5

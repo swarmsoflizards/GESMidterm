@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class Target : MonoBehaviour
 {
-    public GameObject targetPrefab; //Assign target prefab to be instnatiated
-    public float spawnRangeX; //Set range x
-    public float spawnRangeZ; //Set range z
-    public float startDelay = 2; //Set delay
-    public float spawnInternal = 1.5f; //
+    [SerializeField] GameObject targetPrefab; //Assign target prefab to be instnatiated
+    [SerializeField] float spawnRangeMaxX; //Set range max x
+    [SerializeField] float spawnRangeMinX; //Set range min x
+    [SerializeField] float spawnRangeMaxZ; //Set range max z
+    [SerializeField] float spawnRangeMinZ; //Set range min z
+    [SerializeField] float startDelay = 2; //Set delay
+    [SerializeField] float spawnInternal = 1.5f; //
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +19,7 @@ public class Target : MonoBehaviour
     }
     void SpawnTarget()
     {
-        Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, Random.Range(-spawnRangeZ, spawnRangeZ));
+        Vector3 spawnPos = new Vector3(Random.Range(spawnRangeMinX, spawnRangeMaxX), 0, Random.Range(spawnRangeMinZ, spawnRangeMaxZ)); //Set spawn position
 
         Instantiate(targetPrefab, spawnPos, Quaternion.identity); //Instantiate plate
     }
