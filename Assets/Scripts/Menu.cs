@@ -10,6 +10,7 @@ public class Menu : MonoBehaviour
     public void StartGame()
     {
         mainMenu.SetActive(false);
+        CanvasMenu.enabled
     }
 
     public void ShowMainMenu()
