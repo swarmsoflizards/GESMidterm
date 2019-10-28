@@ -1375,7 +1375,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &773958374
 PrefabInstance:
@@ -3001,6 +3001,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPrefab: {fileID: 1378593221907068742, guid: d70e63dd641b852479031f8ae9c1c133,
     type: 3}
+  maxTargetNumber: 5
   spawnRangeMaxX: -2.7
   spawnRangeMinX: -4.7
   spawnRangeMaxZ: -5.4

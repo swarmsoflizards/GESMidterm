@@ -5,6 +5,7 @@ using UnityEngine;
 public class Target : MonoBehaviour
 {
     [SerializeField] GameObject targetPrefab; //Assign target prefab to be instnatiated
+    [SerializeField] float maxTargetNumber; //Set max number of targets in scene
     [SerializeField] float spawnRangeMaxX; //Set range max x
     [SerializeField] float spawnRangeMinX; //Set range min x
     [SerializeField] float spawnRangeMaxZ; //Set range max z
@@ -12,15 +13,24 @@ public class Target : MonoBehaviour
     [SerializeField] float startDelay = 2; //Set delay
     [SerializeField] float spawnInternal = 1.5f; //
 
-    // Start is called before the first frame update
-    void Start()
+    private float targetsInScene; //Set var number of targets in scene
+
+    void Update()
     {
-        InvokeRepeating("SpawnTarget", startDelay, spawnInternal); //Keep spawning new targets
+        if (targetsInScene >= maxTargetNumber) //Check against max number of targets
+        {
+            SpawnTarget(); //Spawn target
+        }
+        else
+        {
+            //Don't spawn target
+        }
+        
     }
     void SpawnTarget()
     {
         Vector3 spawnPos = new Vector3(Random.Range(spawnRangeMinX, spawnRangeMaxX), 0, Random.Range(spawnRangeMinZ, spawnRangeMaxZ)); //Set spawn position
-
         Instantiate(targetPrefab, spawnPos, Quaternion.identity); //Instantiate plate
+        targetsInScene++; //Add to targetsInScene
     }
 }
