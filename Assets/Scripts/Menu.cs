@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Menu : MonoBehaviour
 {
-    [SerializeField] GameObject mainMenu;
-    [SerializeField] GameObject creditsMenu;
+    [SerializeField] GameObject mainMenu; //Define menu screen
+    [SerializeField] GameObject creditsMenu; //Define credits screen
 
     public void StartGame()
     {
@@ -14,18 +14,18 @@ public class Menu : MonoBehaviour
 
     public void ShowMainMenu()
     {
-        mainMenu.SetActive(true);
-        creditsMenu.SetActive(false);
+        mainMenu.SetActive(true); //Show main menu
+        creditsMenu.SetActive(false); //Hide credits screen
     }
 
     public void ShowCreditsMenu()
     {
-        mainMenu.SetActive(false);
-        creditsMenu.SetActive(true);
+        mainMenu.SetActive(false); //Hide main menu
+        creditsMenu.SetActive(true); //Show credits screen
     }
 
     public void Quit()
     {
-        Application.Quit();
+        Application.Quit(); //Quit game
     }
 }
