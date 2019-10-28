@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class ScreenLoader : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void LoadGameScene()
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
