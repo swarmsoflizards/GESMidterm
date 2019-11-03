@@ -67,4 +67,6 @@ After I got that squared away, I started adding the environment assets. I starte
 - - - -
 I spent a period of time filling in the environment with assets. I started by replacing chunks of the walls with pieces that include windows and doorways, and then edited them slightly (opening the windows, adding the doors). Then I added a handful of kitchen counters in one corner, and added a refrigerator and a stove. I populated the counter with a coffee maker and a radio, and a trash can next to the fridge. I then added a round kitchen table and some chairs, and moved the camera to sit on top of the table. I noticed that the table blended into the floor, so I added a red rug under the table and resized it until it could be seen all around the table regardless of where the camera was pointed. 
 
+![alt text](https://66.media.tumblr.com/3f5673d6cabc555b9f3bc503e138cccf/be347ab0aed27097-dc/s540x810/d02a04cc583a9df31b22c34f2abdaceba7d25483.jpg "Environment Screenshot")
+
 ## 10-28-2019
