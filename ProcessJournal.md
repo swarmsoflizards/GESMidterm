@@ -69,4 +69,12 @@ I spent a period of time filling in the environment with assets. I started by re
 
 ![alt text](https://66.media.tumblr.com/3f5673d6cabc555b9f3bc503e138cccf/be347ab0aed27097-dc/s540x810/d02a04cc583a9df31b22c34f2abdaceba7d25483.jpg "Environment Screenshot")
 
-## 10-28-2019
+## 10-28-2019 - Menu screens and spawning plates
+- - - -
+Using the UI tutorial project that we did in class, I created the menu scene and UI. It has two panels: a start menu and a credits screen. The start menu has three buttons: "start," "credits," and "exit." The credits screen has a "back" button that returns to the start menu. Referencing the UI tutorial, I wrote two scripts, one for managing the menu, buttons, and activating and deactivating panels, and the other for loading in the game scene when the "play" button is pressed. It took me probably too long to realize that it wasn't working because I didn't have an EventSystem gameObject in place, but I figured it out.
+
+![alt text](https://66.media.tumblr.com/24a4a06b5bed2ad56ac86342e9a89e64/e0c957975c98bcc5-40/s540x810/f6e39558df5646d7ada61ad0f8d4864da870ce73.jpg "Start Menu Screenshot")
+
+![alt text](https://66.media.tumblr.com/6d6ef7974bcfde87b4b75a56c6a4087e/e0c957975c98bcc5-58/s540x810/2835d010ea23fcc2049357abc6d6b48e37d446c8.jpg "Credits Screenshot")
+
+
