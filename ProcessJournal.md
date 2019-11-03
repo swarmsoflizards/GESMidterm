@@ -62,3 +62,9 @@ When I arrived in class Monday morning and opened my Unity project, the first th
 Referencing the basketball-throwing script from the earlier Space Jam class project, I wrote a handful of lines and then spent time debugging, only for nothing I wrote to be working. It took me and my professor half an hour to realize I was referencing the toast prefab instead of the instantiated game object. After I fixed that, it worked great. Funny how that works.
 
 After I got that squared away, I started adding the environment assets. I started with the floor, which I made out of four 4x-sized tiles arranged in a square. I added box colliders and the "floor" physic material. After that, I added the walls. Since right now the room is just a cube with solid walls, I'm going to replace some of the wall tiles with window and door tiles. I'm planning on adding basic furniture like counters and tables next to fill out the environment and maybe add additional fun interactions with the flying/falling toast.
+
+## 10-21-2019 - Filling in the environment
+- - - -
+I spent a period of time filling in the environment with assets. I started by replacing chunks of the walls with pieces that include windows and doorways, and then edited them slightly (opening the windows, adding the doors). Then I added a handful of kitchen counters in one corner, and added a refrigerator and a stove. I populated the counter with a coffee maker and a radio, and a trash can next to the fridge. I then added a round kitchen table and some chairs, and moved the camera to sit on top of the table. I noticed that the table blended into the floor, so I added a red rug under the table and resized it until it could be seen all around the table regardless of where the camera was pointed. 
+
+## 10-28-2019
