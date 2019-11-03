@@ -7,10 +7,16 @@ public class Menu : MonoBehaviour
     [SerializeField] GameObject mainMenu; //Define menu screen
     [SerializeField] GameObject creditsMenu; //Define credits screen
 
-    public void StartGame()
+    public void Start()
     {
-        mainMenu.SetActive(false);
+        mainMenu.SetActive(true); //Show main menu
+        creditsMenu.SetActive(false); //Hide credits screen
     }
+
+    //public void StartGame()
+    //{
+    //    mainMenu.SetActive(false);
+    //}
 
     public void ShowMainMenu()
     {
