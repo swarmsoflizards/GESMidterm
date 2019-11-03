@@ -4230,13 +4230,15 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: 'Developed by Dan Steinmetz
 
-    Environment assets from Kenney
+    Environment assets from Kenney.nl
 
-    UI assets from Kenney
+    UI assets from Kenney.nl
 
-    Music from hhh
+    Sound effects from Zapsplat.com
 
-    Sound effects from hhh'
+    Menu music - "The Curious Kitten" by Aaron Kenny
+
+    Game music - "Brain Trust" by Wayne Jones'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -4264,8 +4266,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 26
+  m_fontSizeBase: 26
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4281,7 +4283,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 95
+  m_firstOverflowCharacterIndex: 167
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -4302,15 +4304,15 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -182.9072, y: -42.20935, z: -3.9662476, w: -122.79083}
+  m_margin: {x: -258.98276, y: -42.20935, z: -52.76941, w: -122.79083}
   m_textInfo:
     textComponent: {fileID: 1557636483}
-    characterCount: 117
+    characterCount: 208
     spriteCount: 0
-    spaceCount: 18
-    wordCount: 19
+    spaceCount: 32
+    wordCount: 36
     linkCount: 0
-    lineCount: 5
+    lineCount: 6
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
