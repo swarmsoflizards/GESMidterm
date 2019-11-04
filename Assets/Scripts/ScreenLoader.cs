@@ -7,11 +7,11 @@ public class ScreenLoader : MonoBehaviour
 {
     public void LoadGameScene()
     {
-        EditorSceneManager.LoadScene("GameScene"); //Load game scene
+        UnityEngine.SceneManagement.SceneManager.LoadScene("GameScene"); //Load game scene
     }
 
     public void LoadMenuScene()
     {
-        EditorSceneManager.LoadScene("MenuScene"); //Load menu scene
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MenuScene"); //Load menu scene
     }
 }
