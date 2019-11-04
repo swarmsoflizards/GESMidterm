@@ -62,3 +62,22 @@ When I arrived in class Monday morning and opened my Unity project, the first th
 Referencing the basketball-throwing script from the earlier Space Jam class project, I wrote a handful of lines and then spent time debugging, only for nothing I wrote to be working. It took me and my professor half an hour to realize I was referencing the toast prefab instead of the instantiated game object. After I fixed that, it worked great. Funny how that works.
 
 After I got that squared away, I started adding the environment assets. I started with the floor, which I made out of four 4x-sized tiles arranged in a square. I added box colliders and the "floor" physic material. After that, I added the walls. Since right now the room is just a cube with solid walls, I'm going to replace some of the wall tiles with window and door tiles. I'm planning on adding basic furniture like counters and tables next to fill out the environment and maybe add additional fun interactions with the flying/falling toast.
+
+## 10-21-2019 - Filling in the environment
+- - - -
+I spent a period of time filling in the environment with assets. I started by replacing chunks of the walls with pieces that include windows and doorways, and then edited them slightly (opening the windows, adding the doors). Then I added a handful of kitchen counters in one corner, and added a refrigerator and a stove. I populated the counter with a coffee maker and a radio, and a trash can next to the fridge. I then added a round kitchen table and some chairs, and moved the camera to sit on top of the table. I noticed that the table blended into the floor, so I added a red rug under the table and resized it until it could be seen all around the table regardless of where the camera was pointed. 
+
+![alt text](https://66.media.tumblr.com/3f5673d6cabc555b9f3bc503e138cccf/be347ab0aed27097-dc/s540x810/d02a04cc583a9df31b22c34f2abdaceba7d25483.jpg "Environment Screenshot")
+
+## 10-28-2019 - Menu screens and spawning plates
+- - - -
+Using the UI tutorial project that we did in class, I created the menu scene and UI. It has two panels: a start menu and a credits screen. The start menu has three buttons: "start," "credits," and "exit." The credits screen has a "back" button that returns to the start menu. Referencing the UI tutorial, I wrote two scripts, one for managing the menu, buttons, and activating and deactivating panels, and the other for loading in the game scene when the "play" button is pressed. It took me probably too long to realize that it wasn't working because I didn't have an EventSystem gameObject in place, but I figured it out.
+
+![alt text](https://66.media.tumblr.com/24a4a06b5bed2ad56ac86342e9a89e64/e0c957975c98bcc5-40/s540x810/f6e39558df5646d7ada61ad0f8d4864da870ce73.jpg "Start Menu Screenshot")
+
+![alt text](https://66.media.tumblr.com/6d6ef7974bcfde87b4b75a56c6a4087e/e0c957975c98bcc5-58/s540x810/2835d010ea23fcc2049357abc6d6b48e37d446c8.jpg "Credits Screenshot")
+
+It won't win any awards, but it'll get the job done for now. My biggest issue with it is that one line of the credits is difficult to read. I logged an issue and I'd love to illustrate a credits screen for it, but that can't be my priority right now. I'd also like to include an instructions screen, ideally also illustrated, that I can put in its own panel with an accompanying button. Again, I have to focus on actual integral game functions before I get carried away with quality-of-life things.
+
+Speaking of quality-of-life, I added background music to both the menu and the game scenes. Both songs are free use from the YouTube Audio Library. The menu song is "The Curious Kitten" by Aaron Kenny, and the game song is "Brain Trust" by Wayne Jones. I like them a lot, and they add a lot of charm to the game. Next up: sound effects.
+
