@@ -15,6 +15,7 @@ public class ToasterAim : MonoBehaviour
 
     void Update()
     {
+        //Configure mouse follow
         float deltaMouseHorizontal = Input.GetAxis("Mouse X") * horizontalMouseSensitivity;
         float deltaMouseVertical = Input.GetAxis("Mouse Y") * verticalMouseSensitivity;
         float newCameraRotationY = transform.rotation.eulerAngles.y + deltaMouseHorizontal;

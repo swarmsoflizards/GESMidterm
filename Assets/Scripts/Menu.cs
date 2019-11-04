@@ -13,11 +13,6 @@ public class Menu : MonoBehaviour
         creditsMenu.SetActive(false); //Hide credits screen
     }
 
-    //public void StartGame()
-    //{
-    //    mainMenu.SetActive(false);
-    //}
-
     public void ShowMainMenu()
     {
         mainMenu.SetActive(true); //Show main menu
