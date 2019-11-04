@@ -77,4 +77,7 @@ Using the UI tutorial project that we did in class, I created the menu scene and
 
 ![alt text](https://66.media.tumblr.com/6d6ef7974bcfde87b4b75a56c6a4087e/e0c957975c98bcc5-58/s540x810/2835d010ea23fcc2049357abc6d6b48e37d446c8.jpg "Credits Screenshot")
 
+It won't win any awards, but it'll get the job done for now. My biggest issue with it is that one line of the credits is difficult to read. I logged an issue and I'd love to illustrate a credits screen for it, but that can't be my priority right now. I'd also like to include an instructions screen, ideally also illustrated, that I can put in its own panel with an accompanying button. Again, I have to focus on actual integral game functions before I get carried away with quality-of-life things.
+
+Speaking of quality-of-life, I added background music to both the menu and the game scenes. Both songs are free use from the YouTube Audio Library. The menu song is "The Curious Kitten" by Aaron Kenny, and the game song is "Brain Trust" by Wayne Jones. I like them a lot, and they add a lot of charm to the game. Next up: sound effects.
 
