@@ -9,13 +9,14 @@ public class ToastLauncher : MonoBehaviour
     [SerializeField] float launchPerSecond = 2; //Limit launch per second
     bool canLaunch = true; //Set allowed to launch
 
-    // Update is called once per frame
+    [SerializeField] AudioSource soundToastLaunch; //Set toast launch sound
+
     void Update()
     {
         if (canLaunch && Input.GetKeyDown(KeyCode.Space)) //Launch on spacebar
         {
-            //Instantiate(toastPrefab, transform.position, toastPrefab.transform.rotation); //Launch from toaster's position
-            GameObject toast = Instantiate(toastPrefab, transform.position, Quaternion.identity);
+            soundToastLaunch.Play(); //Play toast launch sound
+            GameObject toast = Instantiate(toastPrefab, transform.position, Quaternion.identity); //Instantiate toast
             Rigidbody rb = toast.GetComponent<Rigidbody>(); //Get toast Rigidbody
 
             Vector3 direction = Quaternion.Euler(15, 0, 0) * transform.forward; //Define launch force
