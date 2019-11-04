@@ -10,26 +10,14 @@ public class Target : MonoBehaviour
     [SerializeField] float spawnRangeMinX; //Set range min x
     [SerializeField] float spawnRangeMaxZ; //Set range max z
     [SerializeField] float spawnRangeMinZ; //Set range min z
-    //[SerializeField] float startDelay = 2; //Set delay
-    //[SerializeField] float spawnInternal = 1.5f; //
 
     private float targetsInScene; //Set var current number of targets in scene
-    bool spawnPlates = true;
-    
 
     void Update()
     {
-        if (targetsInScene != maxTargetNumber) //Check if spawn plates is possible
+        if (targetsInScene != maxTargetNumber) //Check if plates in scene is equal to max plates
         {
             SpawnTarget(); //Spawn target
-            //if (targetsInScene == maxTargetNumber) //If number of plates is at max
-            //{
-            //    spawnPlates = false; //Don't allow more plates to spawn
-            //}
-            //else if (targetsInScene != maxTargetNumber) //If number of plates is less than max
-            //{
-            //    targetsInScene = +1; //Add to targetsInScene
-            //}
         }
         else if (targetsInScene == maxTargetNumber)
         {
@@ -41,6 +29,6 @@ public class Target : MonoBehaviour
     {
         Vector3 spawnPos = new Vector3(Random.Range(spawnRangeMinX, spawnRangeMaxX), 0, Random.Range(spawnRangeMinZ, spawnRangeMaxZ)); //Set spawn position
         Instantiate(targetPrefab, spawnPos, Quaternion.identity); //Instantiate plate
-        targetsInScene++;
+        targetsInScene++; //Add to plate counter float
     }
 }
