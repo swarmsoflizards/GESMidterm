@@ -8,6 +8,8 @@ public class DetectCollision : MonoBehaviour
     [SerializeField] GameObject target;
     [SerializeField] float destroyDelay;
 
+    [SerializeField] AudioSource soundToastLand;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +22,9 @@ public class DetectCollision : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other) //On collision of toast with target
+    private void OnTriggerEnter(Collider toast) //On collision of toast with target
     {
+        soundToastLand.Play();
         Debug.Log("Collision detected");
     }
 
