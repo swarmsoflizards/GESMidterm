@@ -3119,7 +3119,7 @@ GameObject:
   - component: {fileID: 1790796328}
   - component: {fileID: 1790796327}
   m_Layer: 0
-  m_Name: TargetSpawner
+  m_Name: TargetSpawnerGO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

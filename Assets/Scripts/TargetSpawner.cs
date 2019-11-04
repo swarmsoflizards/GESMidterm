@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Target : MonoBehaviour
+public class TargetSpawner : MonoBehaviour
 {
     [SerializeField] GameObject targetPrefab; //Assign target prefab to be instnatiated
     [SerializeField] float maxTargetNumber; //Set max number of targets in scene
@@ -26,7 +26,7 @@ public class Target : MonoBehaviour
         }
         
     }
-    void SpawnTarget()
+    void SpawnTarget() //Spawn plate prefab
     {
         Vector3 spawnPos = new Vector3(Random.Range(spawnRangeMinX, spawnRangeMaxX), spawnY, Random.Range(spawnRangeMinZ, spawnRangeMaxZ)); //Set spawn position
         Instantiate(targetPrefab, spawnPos, Quaternion.identity); //Instantiate plate
