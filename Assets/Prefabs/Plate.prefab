@@ -95,7 +95,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 4
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &-1096025964346232221
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -121,3 +121,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d57e40373c4f9604b936849a4c006ec1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  toast: {fileID: 8658175459340020296, guid: 8e9501a28b7f8c4499992e26699746c5, type: 3}
+  target: {fileID: 1378593221907068742}
+  destroyDelay: 2
