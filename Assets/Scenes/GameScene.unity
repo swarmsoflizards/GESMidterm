@@ -3144,8 +3144,7 @@ MonoBehaviour:
   spawnRangeMinX: -4.7
   spawnRangeMaxZ: -5.4
   spawnRangeMinZ: -14
-  startDelay: 2
-  spawnInternal: 1.5
+  spawnY: 1
 --- !u!4 &1790796328
 Transform:
   m_ObjectHideFlags: 0

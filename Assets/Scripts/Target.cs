@@ -10,6 +10,7 @@ public class Target : MonoBehaviour
     [SerializeField] float spawnRangeMinX; //Set range min x
     [SerializeField] float spawnRangeMaxZ; //Set range max z
     [SerializeField] float spawnRangeMinZ; //Set range min z
+    [SerializeField] float spawnY; //Set spawn y value
 
     private float targetsInScene; //Set var current number of targets in scene
 
@@ -27,7 +28,7 @@ public class Target : MonoBehaviour
     }
     void SpawnTarget()
     {
-        Vector3 spawnPos = new Vector3(Random.Range(spawnRangeMinX, spawnRangeMaxX), 0, Random.Range(spawnRangeMinZ, spawnRangeMaxZ)); //Set spawn position
+        Vector3 spawnPos = new Vector3(Random.Range(spawnRangeMinX, spawnRangeMaxX), spawnY, Random.Range(spawnRangeMinZ, spawnRangeMaxZ)); //Set spawn position
         Instantiate(targetPrefab, spawnPos, Quaternion.identity); //Instantiate plate
         targetsInScene++; //Add to plate counter float
     }
