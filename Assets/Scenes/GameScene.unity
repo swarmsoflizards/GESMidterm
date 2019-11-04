@@ -1864,8 +1864,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01ce5a7cf8587864089b49440bae0adf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalMouseSensitivity: 0.5
-  verticalMouseSensitivity: 0.5
+  horizontalMouseSensitivity: 1
+  verticalMouseSensitivity: 1
 --- !u!45 &963194231
 Skybox:
   m_ObjectHideFlags: 0
