@@ -1,17 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEditor.SceneManagement;
 
 public class ScreenLoader : MonoBehaviour
 {
     public void LoadGameScene()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("GameScene"); //Load game scene
+        EditorSceneManager.LoadScene("GameScene"); //Load game scene
     }
 
     public void LoadMenuScene()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("MenuScene"); //Load menu scene
+        EditorSceneManager.LoadScene("MenuScene"); //Load menu scene
     }
 }
