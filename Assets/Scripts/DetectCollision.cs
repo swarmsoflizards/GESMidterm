@@ -28,9 +28,4 @@ public class DetectCollision : MonoBehaviour
         Debug.Log("Collision detected");
     }
 
-    //void DestroyTargetAndToast() //Destroy after specified seconds
-    //{
-    //    Destroy(target, destroyDelay); //Destroy target
-    //}
-
 }

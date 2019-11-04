@@ -10,7 +10,7 @@ public class ScreenLoader : MonoBehaviour
         EditorSceneManager.LoadScene("GameScene"); //Load game scene
     }
 
-    public void LoadMenuScene()
+    public void ExitGame()
     {
         EditorSceneManager.LoadScene("MenuScene"); //Load menu scene
     }
