@@ -23,7 +23,7 @@ public class ToastLauncher : MonoBehaviour
             Vector3 direction = Quaternion.Euler(15, 0, 0) * transform.forward; //Define launch force
             rb.AddForce(direction * launchForce, ForceMode.Impulse); //Apply launch force
             canLaunch = false;
-            Destroy(toast, delayDestroy); //Destroy toast after five seconds
+            Destroy(toast, delayDestroy); //Destroy toast after length of time
 
             Invoke("EnableLaunch", 1 / launchPerSecond); //Apply launch per second
         }
