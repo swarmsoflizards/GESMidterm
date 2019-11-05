@@ -7,6 +7,7 @@ public class ToastLauncher : MonoBehaviour
     [SerializeField] GameObject toastPrefab; //Set toast prefab as GameObject
     [SerializeField] float launchForce = 5f; //Set launch force
     [SerializeField] float launchPerSecond = 2; //Limit launch per second
+    [SerializeField] float delayDestroy = 10; //Set length of delay before toast destroy
     bool canLaunch = true; //Set allowed to launch
 
     [SerializeField] AudioSource soundToastLaunch; //Set toast launch sound
@@ -22,7 +23,7 @@ public class ToastLauncher : MonoBehaviour
             Vector3 direction = Quaternion.Euler(15, 0, 0) * transform.forward; //Define launch force
             rb.AddForce(direction * launchForce, ForceMode.Impulse); //Apply launch force
             canLaunch = false;
-            Destroy(toast, 5); //Destroy toast after five seconds
+            Destroy(toast, delayDestroy); //Destroy toast after five seconds
 
             Invoke("EnableLaunch", 1 / launchPerSecond); //Apply launch per second
         }
