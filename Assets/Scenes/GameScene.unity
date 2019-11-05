@@ -120,6 +120,25 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &20125715 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -183823183075921837, guid: 44cbce2c492358e4683d4eb11f98f5b1,
+    type: 3}
+  m_PrefabInstance: {fileID: 864325717}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &20125716
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20125715}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.37631163, y: 0.18975371, z: 0.08}
+  m_Center: {x: 0.21499999, y: 0.7982789, z: 0.030000001}
 --- !u!1 &64837955 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: b6156badbf4946b43a066dc7055e64a7,
@@ -292,6 +311,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.32204872, y: 0.23853414, z: 0.11360282}
   m_Center: {x: 0.16270265, y: 0.11301446, z: 0.0511215}
+--- !u!1 &292534158 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1043859456191580731, guid: 44cbce2c492358e4683d4eb11f98f5b1,
+    type: 3}
+  m_PrefabInstance: {fileID: 864325717}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &292534159
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292534158}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.37631163, y: 0.6165779, z: 0.1}
+  m_Center: {x: 0.21499999, y: 0.39511314, z: 0.040000003}
 --- !u!1001 &307524250
 PrefabInstance:
   m_ObjectHideFlags: 0
