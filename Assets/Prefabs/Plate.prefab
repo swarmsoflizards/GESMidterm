@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 3022553557840720909}
   - component: {fileID: 8103286136513679029}
   - component: {fileID: -2760964100363348601}
-  - component: {fileID: -1096025964346232221}
   - component: {fileID: 134332612990747878}
   - component: {fileID: 8566312301890748241}
+  - component: {fileID: 8139327911773789430}
   m_Layer: 0
   m_Name: Plate
   m_TagString: Untagged
@@ -97,19 +97,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 4
   m_CollisionDetection: 3
---- !u!65 &-1096025964346232221
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1378593221907068742}
-  m_Material: {fileID: 13400000, guid: 621feaa409b49a94aadb7d2a0116d821, type: 2}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 2, z: 1.0000001}
-  m_Center: {x: 0.00000005960464, y: 0, z: -0.00000008940696}
 --- !u!114 &134332612990747878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,3 +209,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!64 &8139327911773789430
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378593221907068742}
+  m_Material: {fileID: 13400000, guid: 621feaa409b49a94aadb7d2a0116d821, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
