@@ -81,7 +81,17 @@ It won't win any awards, but it'll get the job done for now. My biggest issue wi
 
 Speaking of quality-of-life, I added background music to both the menu and the game scenes. Both songs are free use from the YouTube Audio Library. The menu song is "The Curious Kitten" by Aaron Kenny, and the game song is "Brain Trust" by Wayne Jones. I like them a lot, and they add a lot of charm to the game.
 
-## 11-4-2019 - Final build due!
+## 11-4-2019 - Final build due and playtesting
 - - - -
+After implementing sound effects and some final quality-of-life changes, it was time for me to build. The night before the final submit was due, I sat down to build at around 8pm and... couldn't. I was faced with a wall of errors with long strings of characters that was difficult to parse. I spent the next three hours frantically Googling and sifting through StackOverflow pages for answers. I was able to solve a couple of them fairly simply, but one stayed firmly at the top of my console. Everybody I found with the same error found easy fixes, none of which worked for me. With half an hour left to submit and nothing left to try, I zipped an older, less complete build and submitted it with a note about the trouble I was having. 
 
+The next morning I arrived at class early and sat down with my teacher to try to figure out what was going on. I rebooted Unity and made sure everything looked alright before going into my build settings again, and hit build to bring up the error. To my surprise, it didn't pop up and a build progress bar started filling up! I was dumbstruck, and stared at it for a couple seconds before I could form a thought. My error fixed itself, and I had a build after all. I submitted it to the assignment online, and I was ready for playtesting with my classmates by the time class started.
+
+
+
+## 11-11-2019 - Deciding to continue working on the project
+
+
+## 11-18-2019
+- - - - 
 
