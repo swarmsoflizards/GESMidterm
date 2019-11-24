@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class TimerUI : MonoBehaviour
 {
     
-    [SerializeField] Text timerLabel; //Assign UI label to time
+    [SerializeField] TMP_Text timerLabel; //Assign UI label to time
     private float time; //Time variable
 
     // Update is called once per frame
