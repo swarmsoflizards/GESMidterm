@@ -18,9 +18,9 @@ public class TimerUI : MonoBehaviour
 
         var minutes = time / 60; //Divide guiTime by 60 to get minutes
         var seconds = time % 60; //Euclidean divide to get seconds
-        var fraction = (time * 100) % 100;
+        //var fraction = (time * 100) % 100;
 
-        timerLabel.text = string.Format("{0:00} : {1:00} : {2:000}", minutes, seconds, fraction); //Update label text
+        timerLabel.text = string.Format("{0:00} : {1:00}", minutes, seconds); //Update label text
 
     }
 }
