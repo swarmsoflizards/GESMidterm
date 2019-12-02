@@ -17,7 +17,7 @@ public class ToastLauncher : MonoBehaviour
 
     void Update()
     {
-        spawnLocation = GameObject.Find("toaster").transform.position;
+        spawnLocation = GameObject.Find("ToastLocation").transform.position;//Get location of toaster
 
         if (canLaunch && Input.GetKeyDown(KeyCode.Space)) //Launch on spacebar
         {
