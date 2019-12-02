@@ -93,6 +93,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d57e40373c4f9604b936849a4c006ec1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pointsLabel: {fileID: 0}
+  points: 0
   soundToastLand: {fileID: 8566312301890748241}
 --- !u!82 &8566312301890748241
 AudioSource:
