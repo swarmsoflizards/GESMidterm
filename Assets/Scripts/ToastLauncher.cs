@@ -25,12 +25,16 @@ public class ToastLauncher : MonoBehaviour
             GameObject toast = Instantiate(toastPrefab, spawnLocation, Quaternion.identity); //Instantiate toast
             Rigidbody rb = toast.GetComponent<Rigidbody>(); //Get toast Rigidbody
 
-            Vector3 direction = Quaternion.Euler(15, 0, 0) * transform.forward; //Define launch force
+            Vector3 direction = Quaternion.Euler(0, 0, 0) * transform.forward; //Define launch force
             rb.AddForce(direction * launchForce, ForceMode.Impulse); //Apply launch force
             canLaunch = false; //Set can launch to false
             Destroy(toast, delayDestroy); //Destroy toast after length of time
 
+            Debug.Log(transform.forward);
+            Debug.Log(direction);
+
             Invoke("EnableLaunch", 1 / launchPerSecond); //Apply launch per second
+            //Debug.Break();
         }
     }
 
