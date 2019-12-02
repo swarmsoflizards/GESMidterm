@@ -22,7 +22,7 @@ public class DetectCollision : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other) //On collision of toast with target
+    private void OnCollisionEnter(Collision collision) //On collision of toast with target
     {
         soundToastLand.Play();
         Debug.Log("Collision detected");

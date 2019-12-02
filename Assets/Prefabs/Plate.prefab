@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 134332612990747878}
   - component: {fileID: 8566312301890748241}
   - component: {fileID: 8139327911773789430}
+  - component: {fileID: -3127846826378325640}
   m_Layer: 0
   m_Name: Plate
   m_TagString: Untagged
@@ -203,3 +204,11 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!81 &-3127846826378325640
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378593221907068742}
+  m_Enabled: 1
