@@ -10,16 +10,19 @@ public class ToastLauncher : MonoBehaviour
     [SerializeField] float launchForce = 5f; //Set launch force
     [SerializeField] float launchPerSecond = 2; //Limit launch per second
     [SerializeField] float delayDestroy = 10; //Set length of delay before toast destroy
+    [SerializeField] Vector3 spawnLocation; //Set toast spawn location
     bool canLaunch = true; //Set allowed to launch
 
     [SerializeField] AudioSource soundToastLaunch; //Set toast launch sound
 
     void Update()
     {
+        spawnLocation = GameObject.Find("toaster").transform.position;
+
         if (canLaunch && Input.GetKeyDown(KeyCode.Space)) //Launch on spacebar
         {
             soundToastLaunch.Play(); //Play toast launch sound
-            GameObject toast = Instantiate(toastPrefab, transform.position, Quaternion.identity); //Instantiate toast
+            GameObject toast = Instantiate(toastPrefab, spawnLocation, Quaternion.identity); //Instantiate toast
             Rigidbody rb = toast.GetComponent<Rigidbody>(); //Get toast Rigidbody
 
             Vector3 direction = Quaternion.Euler(15, 0, 0) * transform.forward; //Define launch force

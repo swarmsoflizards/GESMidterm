@@ -2192,6 +2192,7 @@ MonoBehaviour:
   launchForce: 10
   launchPerSecond: 2
   delayDestroy: 10
+  spawnLocation: {x: 0, y: 0, z: 0}
   soundToastLaunch: {fileID: 963194234}
 --- !u!114 &963194230
 MonoBehaviour:
