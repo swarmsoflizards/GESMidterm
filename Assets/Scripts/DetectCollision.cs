@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class DetectCollision : MonoBehaviour
 {
-    [SerializeField] GameObject toast;
-    [SerializeField] GameObject target;
-    [SerializeField] float destroyDelay;
+    //[SerializeField] GameObject toast; //Assign toast
+    //[SerializeField] GameObject target; //Assign plate
+    //[SerializeField] float destroyDelay;
 
-    [SerializeField] AudioSource soundToastLand;
+    [SerializeField] AudioSource soundToastLand; //Play sound
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,7 @@ public class DetectCollision : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider toast) //On collision of toast with target
+    private void OnTriggerEnter(Collider other) //On collision of toast with target
     {
         soundToastLand.Play();
         Debug.Log("Collision detected");
