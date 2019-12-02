@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro; //Need to reference TextMesh Pro
 
 public class ToastLauncher : MonoBehaviour
 {
     [SerializeField] GameObject toastPrefab; //Set toast prefab as GameObject
+    [SerializeField] TMP_Text pointsLabel; //Assign points label
     [SerializeField] float launchForce = 5f; //Set launch force
     [SerializeField] float launchPerSecond = 2; //Limit launch per second
     [SerializeField] float delayDestroy = 10; //Set length of delay before toast destroy
