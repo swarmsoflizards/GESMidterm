@@ -93,12 +93,18 @@ Playtesting time was split in half; half of the class speed-dated through the ot
 - - - - 
 
 
-## 11-18-2019
+## 11-18-2019 - Amending my design doc, and not much else
 - - - - 
 
 
-## 11-25-2019
+## 11-25-2019 - Adding colliders and physics to environment objects
 - - - -
+This week I spent my time adding colliders and rigibodies to the environment objects I want players to interact with. Most of them are acting the way I want, but I'm probably going to be tweaking the values of their physic materials to make them more fun to knock over. I'm also going to need to add my collision detector script to everything I want to generate points, which will probably take a while and be a pain to get working the way I want.
+
+I still need to decide about certain objects. Do I want the fridge and oven doors to open when they're hit? How hard would it be to animate that? I don't have much experience animating in Unity, but I've done it a couple of times and moving a 3D object on a hinge shouldn't be prohibitively difficult. I think it'll be one of those things I'll move to the backburner, and we'll see how burned out I am when I finish what's at the top of my list.
 
 ## 12-2-2019 - Singletons and more environments
 - - - - 
+My teacher recommended a video tutorial by a nice Polish man on Singletons, and I watched it eagerly. It really helped me wrap my mind around the concept, anad explained to me clearly how to implement it. I created two singletons: a scene loader and a points manager. After a little tweaking they both work perfectly, and I'm immensely happy to have learned a new concept so quickly and easily. 
+
+Next, I need to create my two additional environment levels.
