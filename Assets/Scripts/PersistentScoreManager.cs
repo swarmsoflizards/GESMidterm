@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PersistentLoaderScript : MonoBehaviour
+public class PersistentScoreManager : MonoBehaviour
 {
-    public static PersistentLoaderScript Instance { get; private set; }
+    public static PersistentScoreManager Instance { get; private set; }
 
     private void Awake()
     {
@@ -15,7 +15,7 @@ public class PersistentLoaderScript : MonoBehaviour
         }
         else //If there ARE other instances of this object
         {
-            Destroy(gameObject); //Destroy them
+            Destroy(gameObject); //Destroy others
         }
     }
 
