@@ -6,6 +6,8 @@ public class PersistentScoreManager : MonoBehaviour
 {
     public static PersistentScoreManager Instance { get; private set; }
 
+    public int Score; //Create Score int
+
     private void Awake()
     {
         if (Instance == null) //If there are no other instances of this object
