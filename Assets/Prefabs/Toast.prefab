@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7327518470222778605}
   - component: {fileID: 5395883769970261574}
   - component: {fileID: 3361695024438858204}
-  - component: {fileID: -1426421073534075107}
   - component: {fileID: 7652320803686176599}
   m_Layer: 0
   m_Name: Toast
@@ -96,19 +95,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!114 &-1426421073534075107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8658175459340020296}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf4920b4d7761054e8567256cb23ab13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  flySpeed: 20
 --- !u!65 &7652320803686176599
 BoxCollider:
   m_ObjectHideFlags: 0

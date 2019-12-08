@@ -8,15 +8,8 @@ public class ScoreManager : MonoBehaviour
 
     [SerializeField] TMP_Text scoreLabel; //Assign UI label to points
 
-    // Start is called before the first frame update
     void Start()
     {
         scoreLabel.text = PersistentScoreManager.Instance.Score.ToString(); //Get score and send to scoreLabel
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
