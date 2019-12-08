@@ -90,8 +90,15 @@ The next morning I arrived at class early and sat down with my teacher to try to
 Playtesting time was split in half; half of the class speed-dated through the other half's games, and then we switched. I watched people play my game first. It was difficult sticking to the rule of not commenting or giving advice as they played, seeing as my game didn't have a complete arc. Most players did initially aim for the plates that spawned around the table, but once they realized the game wasn't responding, they branched out in their behavior and started aiming for different things in the environment.
 
 ## 11-11-2019 - Deciding to continue working on the project
+- - - - 
 
 
 ## 11-18-2019
 - - - - 
 
+
+## 11-25-2019
+- - - -
+
+## 12-2-2019 - Singletons and more environments
+- - - - 
