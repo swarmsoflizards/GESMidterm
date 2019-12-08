@@ -10,6 +10,11 @@ public class ScoreManager : MonoBehaviour
 
     void Start()
     {
+        
+    }
+
+    void Update()
+    {
         scoreLabel.text = PersistentScoreManager.Instance.Score.ToString(); //Get score and send to scoreLabel
     }
 }
