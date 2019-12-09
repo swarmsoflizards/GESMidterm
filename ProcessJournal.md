@@ -117,4 +117,6 @@ I then added a backdrop to my credits page, so it's more readable and sucks less
 
 ![alt text](https://66.media.tumblr.com/9f249aba62a1446d112a4671e3c9ce9f/77d08ebb2fc4cf8b-a5/s540x810/6492be8680e8efe0446a19f3eeee5388d523ff46.jpg "Credits Screenshot")
 
-## 12-9-2019 - Final build and next steps
+## 12-9-2019 - Final build and playtesting
+- - - -
+Last night I built the version I submitted as my final project and I'm using for playtesting in class today. It's been performing perfectly.
