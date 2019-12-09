@@ -95,7 +95,7 @@ Playtesting time was split in half; half of the class speed-dated through the ot
 
 ## 11-18-2019 - Amending my design doc, and not much else
 - - - - 
-
+I was sick this week, and on top of other projects I didn't get much done here. It's fine, it happens. I added a handful of features to my doc, chief among them being environment interaction and creating the end state and complete game loop, and marking top priorities and time limitations.
 
 ## 11-25-2019 - Adding colliders and physics to environment objects
 - - - -
