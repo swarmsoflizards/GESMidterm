@@ -11,7 +11,7 @@ public class ScreenLoader : MonoBehaviour
 
     public void LoadMenuScene()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("MenuScene"); //Load menu scene
+        UnityEngine.SceneManagement.SceneManager.LoadScene("StartMenu"); //Load menu scene
     }
 
     public void LoadLivingRoomScene()
