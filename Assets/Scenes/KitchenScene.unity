@@ -329,7 +329,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e956e92ecf076042b73e54c33bec718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endMenu: {fileID: 1948731818}
 --- !u!1 &93761006 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 2c28a996bf950b44a9dec572c2e19f1e,
@@ -3635,7 +3634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerLabel: {fileID: 1685431744}
-  timeLeft: 5
+  timeLeft: 60
   endMenu: {fileID: 1948731818}
   endLabel: {fileID: 729892159}
   endScore: {fileID: 1365270069}
