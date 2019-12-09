@@ -105,6 +105,10 @@ I still need to decide about certain objects. Do I want the fridge and oven door
 
 ## 12-2-2019 - Singletons and more environments
 - - - - 
-My teacher recommended a video tutorial by a nice Polish man on Singletons, and I watched it eagerly. It really helped me wrap my mind around the concept, anad explained to me clearly how to implement it. I created two singletons: a scene loader and a points manager. After a little tweaking they both work perfectly, and I'm immensely happy to have learned a new concept so quickly and easily. 
+My teacher recommended a video tutorial by a nice Polish man on singletons, and I watched it eagerly. It really helped me wrap my mind around the concept, anad explained to me clearly how to implement it. I created two singletons: a scene loader and a points manager. After a little tweaking they both work perfectly, and I'm immensely happy to have learned a new concept so quickly and easily. 
 
-Next, I need to create my two additional environment levels.
+Next up, constructing the tutorial level. I already built the floor and walls, so I quickly populated the space with decor and gave the objects colliders and rigidbodies. I transferred the player singleton and reordered my build settings, and then wrote a script attached to the door to load the kitchen scene when it collides with toast. 
+
+I also added a new panel to the game UI as an end state. It activates when the timer runs out. After a game-breaking error that refused to let me return to the menu scene, I decided to just give it an "end" button as a placeholder until I can figure it out. Now, the game has a complete loop and is playable from start to finish. 
+
+## 12-9-2019 - Final build and next steps
