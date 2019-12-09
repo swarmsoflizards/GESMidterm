@@ -3319,7 +3319,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerLabel: {fileID: 1685431744}
-  timeLeft: 60
+  timeLeft: 5
+  endMenu: {fileID: 1948731818}
+  endLabel: {fileID: 729892159}
 --- !u!4 &1028859420
 Transform:
   m_ObjectHideFlags: 0
