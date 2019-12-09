@@ -19,4 +19,9 @@ public class ScreenLoader : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene("LivingRoomScene"); //Load living room scene
     }
 
+    public void LoadTutorialScene()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Tutorial"); //Load tutorial scene
+    }
+
 }
