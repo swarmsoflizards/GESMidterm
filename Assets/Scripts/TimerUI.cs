@@ -12,6 +12,9 @@ public class TimerUI : MonoBehaviour
 
     [SerializeField] GameObject endMenu; //Define end screen
     [SerializeField] TMP_Text endLabel; //Define end text
+    [SerializeField] TMP_Text endScore; //Define end score text
+
+    private string finalScore; //Var to store final score
 
     private void Start()
     {
@@ -37,7 +40,9 @@ public class TimerUI : MonoBehaviour
             else if (timeLeft <= 0) //If time runs out
             {
                 endMenu.SetActive(true); //Show end screen
+                finalScore = PersistentScoreManager.Instance.Score.ToString(); //Get final score
                 endLabel.text = ("You've run out of time!");
+                endScore.text = ("Your final score is: " + finalScore);
             }
         }
     }
