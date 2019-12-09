@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class GoToKitchen : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter(Collision Toast) //On collision with object
     {
-        
+        if (Toast.gameObject.tag == "Toast") //If toast collides with door
+        {
+            print("Toast collided with door"); //Test
+            UnityEngine.SceneManagement.SceneManager.LoadScene("KitchenScene"); //Load kitchen scene
+        }
     }
 }
