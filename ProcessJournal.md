@@ -109,7 +109,11 @@ My teacher recommended a video tutorial by a nice Polish man on singletons, and 
 
 Next up, constructing the tutorial level. I already built the floor and walls, so I quickly populated the space with decor and gave the objects colliders and rigidbodies. I transferred the player singleton and reordered my build settings, and then wrote a script attached to the door to load the kitchen scene when it collides with toast. 
 
-I also added a new panel to the game UI as an end state. It activates when the timer runs out. After a game-breaking error that refused to let me return to the menu scene, I decided to just give it an "end" button as a placeholder until I can figure it out. Now, the game has a complete loop and is playable from start to finish. I then added a backdrop to my credits page, so it's more readable and sucks less to look at.
+I also added a new panel to the game UI as an end state. It activates when the timer runs out. After a game-breaking error that refused to let me return to the menu scene, I decided to just give it an "end" button as a placeholder until I can figure it out. Now, the game has a complete loop and is playable from start to finish. 
+
+![alt text](https://66.media.tumblr.com/f4f5b955b7a05a9e10506ad221ed83a1/77d08ebb2fc4cf8b-aa/s540x810/08d2d86ab794818d3f6fb120ea86fe1849f1ec93.jpg "End Screenshot")
+
+I then added a backdrop to my credits page, so it's more readable and sucks less to look at.
 
 ![alt text](https://66.media.tumblr.com/9f249aba62a1446d112a4671e3c9ce9f/77d08ebb2fc4cf8b-a5/s540x810/6492be8680e8efe0446a19f3eeee5388d523ff46.jpg "Credits Screenshot")
 
