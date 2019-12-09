@@ -120,3 +120,7 @@ I then added a backdrop to my credits page, so it's more readable and sucks less
 ## 12-9-2019 - Final build and playtesting
 - - - -
 Last night I built the version I submitted as my final project and I'm using for playtesting in class today. It's been performing perfectly.
+
+I got a ton of great notes duirng playtesting that I've documented on paper and in my issues, and I'm going to add a handful of bulletpoints here to document the most important notes.
+
+I know that I want to continue working on this project casually over break and in the future as a more complete portfolio piece
