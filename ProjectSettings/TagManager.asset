@@ -15,7 +15,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - UI BG
   - 
   - 
   - 
@@ -42,4 +42,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UIBG
+    uniqueID: 228124679
     locked: 0

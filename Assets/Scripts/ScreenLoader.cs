@@ -24,4 +24,8 @@ public class ScreenLoader : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene("Tutorial"); //Load tutorial scene
     }
 
+    public void QuitGame()
+    {
+        Application.Quit(); //Quit game
+    }
 }
